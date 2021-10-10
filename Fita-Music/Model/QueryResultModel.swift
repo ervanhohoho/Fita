@@ -18,7 +18,7 @@ struct TrackModel: Codable{
     var artworkUrl60: String
     var isStreamable: Bool?
     var previewUrl: String
-    var collectionName: String
+    var collectionName: String?
     var kind: String
     var nowPlaying: Bool? = false
 }

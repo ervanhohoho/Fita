@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HomeVC.observeValue(forKeyPath:of:change:context:):HomeVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object as? AVPlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeVC.tableView(_:didSelectRowAt:):HomeVC.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
