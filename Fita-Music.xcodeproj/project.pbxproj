@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E405AC96271300D10084AF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405AC95271300D10084AF7A /* AppDelegate.swift */; };
+		E405AC98271300D10084AF7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405AC97271300D10084AF7A /* SceneDelegate.swift */; };
+		E405AC9A271300D10084AF7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405AC99271300D10084AF7A /* ViewController.swift */; };
+		E405AC9D271300D10084AF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E405AC9B271300D10084AF7A /* Main.storyboard */; };
+		E405AC9F271300D50084AF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E405AC9E271300D50084AF7A /* Assets.xcassets */; };
+		E405ACA2271300D50084AF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E405ACA0271300D50084AF7A /* LaunchScreen.storyboard */; };
+		E405ACAD271300D50084AF7A /* Fita_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405ACAC271300D50084AF7A /* Fita_MusicTests.swift */; };
+		E405ACB7271300D50084AF7A /* Fita_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405ACB6271300D50084AF7A /* Fita_MusicUITests.swift */; };
+		E405ACB9271300D50084AF7A /* Fita_MusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405ACB8271300D50084AF7A /* Fita_MusicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E405ACA9271300D50084AF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E405AC8A271300D10084AF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E405AC91271300D10084AF7A;
+			remoteInfo = "Fita-Music";
+		};
+		E405ACB3271300D50084AF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E405AC8A271300D10084AF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E405AC91271300D10084AF7A;
+			remoteInfo = "Fita-Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E405AC92271300D10084AF7A /* Fita-Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fita-Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405AC95271300D10084AF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E405AC97271300D10084AF7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E405AC99271300D10084AF7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E405AC9C271300D10084AF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E405AC9E271300D50084AF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E405ACA1271300D50084AF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E405ACA3271300D50084AF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E405ACA8271300D50084AF7A /* Fita-MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fita-MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405ACAC271300D50084AF7A /* Fita_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fita_MusicTests.swift; sourceTree = "<group>"; };
+		E405ACB2271300D50084AF7A /* Fita-MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fita-MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405ACB6271300D50084AF7A /* Fita_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fita_MusicUITests.swift; sourceTree = "<group>"; };
+		E405ACB8271300D50084AF7A /* Fita_MusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fita_MusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E405AC8F271300D10084AF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405ACA5271300D50084AF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405ACAF271300D50084AF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E405AC89271300D10084AF7A = {
+			isa = PBXGroup;
+			children = (
+				E405AC94271300D10084AF7A /* Fita-Music */,
+				E405ACAB271300D50084AF7A /* Fita-MusicTests */,
+				E405ACB5271300D50084AF7A /* Fita-MusicUITests */,
+				E405AC93271300D10084AF7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E405AC93271300D10084AF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E405AC92271300D10084AF7A /* Fita-Music.app */,
+				E405ACA8271300D50084AF7A /* Fita-MusicTests.xctest */,
+				E405ACB2271300D50084AF7A /* Fita-MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E405AC94271300D10084AF7A /* Fita-Music */ = {
+			isa = PBXGroup;
+			children = (
+				E405AC95271300D10084AF7A /* AppDelegate.swift */,
+				E405AC97271300D10084AF7A /* SceneDelegate.swift */,
+				E405AC99271300D10084AF7A /* ViewController.swift */,
+				E405AC9B271300D10084AF7A /* Main.storyboard */,
+				E405AC9E271300D50084AF7A /* Assets.xcassets */,
+				E405ACA0271300D50084AF7A /* LaunchScreen.storyboard */,
+				E405ACA3271300D50084AF7A /* Info.plist */,
+			);
+			path = "Fita-Music";
+			sourceTree = "<group>";
+		};
+		E405ACAB271300D50084AF7A /* Fita-MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E405ACAC271300D50084AF7A /* Fita_MusicTests.swift */,
+			);
+			path = "Fita-MusicTests";
+			sourceTree = "<group>";
+		};
+		E405ACB5271300D50084AF7A /* Fita-MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E405ACB6271300D50084AF7A /* Fita_MusicUITests.swift */,
+				E405ACB8271300D50084AF7A /* Fita_MusicUITestsLaunchTests.swift */,
+			);
+			path = "Fita-MusicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E405AC91271300D10084AF7A /* Fita-Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405ACBC271300D50084AF7A /* Build configuration list for PBXNativeTarget "Fita-Music" */;
+			buildPhases = (
+				E405AC8E271300D10084AF7A /* Sources */,
+				E405AC8F271300D10084AF7A /* Frameworks */,
+				E405AC90271300D10084AF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fita-Music";
+			productName = "Fita-Music";
+			productReference = E405AC92271300D10084AF7A /* Fita-Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E405ACA7271300D50084AF7A /* Fita-MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405ACBF271300D50084AF7A /* Build configuration list for PBXNativeTarget "Fita-MusicTests" */;
+			buildPhases = (
+				E405ACA4271300D50084AF7A /* Sources */,
+				E405ACA5271300D50084AF7A /* Frameworks */,
+				E405ACA6271300D50084AF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E405ACAA271300D50084AF7A /* PBXTargetDependency */,
+			);
+			name = "Fita-MusicTests";
+			productName = "Fita-MusicTests";
+			productReference = E405ACA8271300D50084AF7A /* Fita-MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E405ACB1271300D50084AF7A /* Fita-MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405ACC2271300D50084AF7A /* Build configuration list for PBXNativeTarget "Fita-MusicUITests" */;
+			buildPhases = (
+				E405ACAE271300D50084AF7A /* Sources */,
+				E405ACAF271300D50084AF7A /* Frameworks */,
+				E405ACB0271300D50084AF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E405ACB4271300D50084AF7A /* PBXTargetDependency */,
+			);
+			name = "Fita-MusicUITests";
+			productName = "Fita-MusicUITests";
+			productReference = E405ACB2271300D50084AF7A /* Fita-MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E405AC8A271300D10084AF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E405AC91271300D10084AF7A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E405ACA7271300D50084AF7A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E405AC91271300D10084AF7A;
+					};
+					E405ACB1271300D50084AF7A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E405AC91271300D10084AF7A;
+					};
+				};
+			};
+			buildConfigurationList = E405AC8D271300D10084AF7A /* Build configuration list for PBXProject "Fita-Music" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E405AC89271300D10084AF7A;
+			productRefGroup = E405AC93271300D10084AF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E405AC91271300D10084AF7A /* Fita-Music */,
+				E405ACA7271300D50084AF7A /* Fita-MusicTests */,
+				E405ACB1271300D50084AF7A /* Fita-MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E405AC90271300D10084AF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405ACA2271300D50084AF7A /* LaunchScreen.storyboard in Resources */,
+				E405AC9F271300D50084AF7A /* Assets.xcassets in Resources */,
+				E405AC9D271300D10084AF7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405ACA6271300D50084AF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405ACB0271300D50084AF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E405AC8E271300D10084AF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405AC9A271300D10084AF7A /* ViewController.swift in Sources */,
+				E405AC96271300D10084AF7A /* AppDelegate.swift in Sources */,
+				E405AC98271300D10084AF7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405ACA4271300D50084AF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405ACAD271300D50084AF7A /* Fita_MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405ACAE271300D50084AF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405ACB9271300D50084AF7A /* Fita_MusicUITestsLaunchTests.swift in Sources */,
+				E405ACB7271300D50084AF7A /* Fita_MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E405ACAA271300D50084AF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E405AC91271300D10084AF7A /* Fita-Music */;
+			targetProxy = E405ACA9271300D50084AF7A /* PBXContainerItemProxy */;
+		};
+		E405ACB4271300D50084AF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E405AC91271300D10084AF7A /* Fita-Music */;
+			targetProxy = E405ACB3271300D50084AF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E405AC9B271300D10084AF7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E405AC9C271300D10084AF7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E405ACA0271300D50084AF7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E405ACA1271300D50084AF7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E405ACBA271300D50084AF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E405ACBB271300D50084AF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E405ACBD271300D50084AF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUNP49LK28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fita-Music/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervan.Fita-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E405ACBE271300D50084AF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUNP49LK28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fita-Music/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervan.Fita-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E405ACC0271300D50084AF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUNP49LK28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervan.Fita-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fita-Music.app/Fita-Music";
+			};
+			name = Debug;
+		};
+		E405ACC1271300D50084AF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUNP49LK28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervan.Fita-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fita-Music.app/Fita-Music";
+			};
+			name = Release;
+		};
+		E405ACC3271300D50084AF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUNP49LK28;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervan.Fita-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fita-Music";
+			};
+			name = Debug;
+		};
+		E405ACC4271300D50084AF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUNP49LK28;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervan.Fita-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fita-Music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E405AC8D271300D10084AF7A /* Build configuration list for PBXProject "Fita-Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405ACBA271300D50084AF7A /* Debug */,
+				E405ACBB271300D50084AF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405ACBC271300D50084AF7A /* Build configuration list for PBXNativeTarget "Fita-Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405ACBD271300D50084AF7A /* Debug */,
+				E405ACBE271300D50084AF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405ACBF271300D50084AF7A /* Build configuration list for PBXNativeTarget "Fita-MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405ACC0271300D50084AF7A /* Debug */,
+				E405ACC1271300D50084AF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405ACC2271300D50084AF7A /* Build configuration list for PBXNativeTarget "Fita-MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405ACC3271300D50084AF7A /* Debug */,
+				E405ACC4271300D50084AF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E405AC8A271300D10084AF7A /* Project object */;
+}
