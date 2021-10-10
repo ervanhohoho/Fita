@@ -14,8 +14,8 @@
             filePath = "Fita-Music/Controller/HomeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "Fita-Music/Controller/HomeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "observeValue(forKeyPath:of:change:context:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -64,8 +64,56 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
             endingLineNumber = "97"
-            landmarkName = "apiCall()"
+            landmarkName = "apiCall(completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75BAACA1-9215-480E-BC90-A702BB80E47C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fita-MusicTests/Fita_MusicTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "searchByQuery(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75BAACA1-9215-480E-BC90-A702BB80E47C - e972bf3b817acbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fita_MusicTests.MockMusicAPI.searchByQuery(query: Swift.String, completion: (Swift.Result&lt;Fita_Music.QueryResultModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Fita-MusicTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervandharmawan/Documents/Fita-Music/Fita-MusicTests/Fita_MusicTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "75BAACA1-9215-480E-BC90-A702BB80E47C - e972bf3b817acb94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fita_MusicTests.MockMusicAPI.searchByQuery(query: Swift.String, completion: (Swift.Result&lt;Fita_Music.QueryResultModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Fita-MusicTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervandharmawan/Documents/Fita-Music/Fita-MusicTests/Fita_MusicTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "825">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

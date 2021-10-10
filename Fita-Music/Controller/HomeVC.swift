@@ -103,7 +103,6 @@ class HomeVC: UIViewController{
                 self.tracks = tracks
                 completion()
             case let .failure(error):
-                debugPrint(error)
                 self.tracks = []
                 completion()
             }
