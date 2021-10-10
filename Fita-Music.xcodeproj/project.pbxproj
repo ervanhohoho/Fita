@@ -20,6 +20,7 @@
 		E405ACCA271307F40084AF7A /* MusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E405ACC8271307F40084AF7A /* MusicCell.xib */; };
 		E405ACCC27130AD40084AF7A /* MusicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405ACCB27130AD40084AF7A /* MusicAPI.swift */; };
 		E405ACCF27130DA10084AF7A /* QueryResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405ACCE27130DA10084AF7A /* QueryResultModel.swift */; };
+		E405ACD2271319960084AF7A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E405ACD1271319960084AF7A /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E405ACD2271319960084AF7A /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +181,9 @@
 			dependencies = (
 			);
 			name = "Fita-Music";
+			packageProductDependencies = (
+				E405ACD1271319960084AF7A /* Kingfisher */,
+			);
 			productName = "Fita-Music";
 			productReference = E405AC92271300D10084AF7A /* Fita-Music.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +256,9 @@
 				Base,
 			);
 			mainGroup = E405AC89271300D10084AF7A;
+			packageReferences = (
+				E405ACD0271319960084AF7A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E405AC93271300D10084AF7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -664,6 +672,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E405ACD0271319960084AF7A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E405ACD1271319960084AF7A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E405ACD0271319960084AF7A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E405AC8A271300D10084AF7A /* Project object */;
 }

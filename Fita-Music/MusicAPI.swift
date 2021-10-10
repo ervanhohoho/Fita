@@ -11,10 +11,12 @@ protocol MusicAPI{
 }
 class MusicAPIImpl: MusicAPI{
     static var instance = MusicAPIImpl()
-    let url = "https://itunes.apple.com/search?term="
+    let url = "https://itunes.apple.com/search?entity=musicTrack&term="
+    
     func searchByQuery(query: String, completion: @escaping (Result<QueryResultModel, Error>) -> Void) {
         let query = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
         let url = self.url + query
+        debugPrint(url)
         URLSession.shared.dataTask(with: URL(string: url)!) { data, response, error in
             do {
                 guard let data = data else {
