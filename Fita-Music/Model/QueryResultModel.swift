@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct QueryResultModel: Codable{
+struct QueryResultModel: Codable, Equatable{
     var resultCount: Int
     var results: [TrackModel]
 }
-struct TrackModel: Codable{
+struct TrackModel: Codable, Equatable{
     var trackId: Double?
     var trackName: String
     var artistName: String
@@ -21,4 +21,7 @@ struct TrackModel: Codable{
     var collectionName: String?
     var kind: String
     var nowPlaying: Bool? = false
+    static func ==(lhs: TrackModel, rhs: TrackModel) -> Bool {
+        return lhs.trackId == rhs.trackId
+    }
 }

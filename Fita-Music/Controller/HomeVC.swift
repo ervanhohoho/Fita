@@ -61,6 +61,8 @@ class HomeVC: UIViewController{
             }
         }
     }
+    var snapshotTracks: [TrackModel] = []
+    var snapshotNowPlayingIndex: Int? = nil
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var playerView: UIView!
     override func viewDidLoad() {
@@ -130,14 +132,44 @@ class HomeVC: UIViewController{
         isPlaying = !isPlaying
     }
     @IBAction func clickNext(_ sender: Any) {
-        if let nowPlayingIndex = nowPlayingIndex , nowPlayingIndex + 1 < tracks.count - 1{
-            tracks[nowPlayingIndex].nowPlaying = false
-            nowPlaying = tracks[nowPlayingIndex + 1]
-            self.nowPlayingIndex = nowPlayingIndex + 1
-            tracks[self.nowPlayingIndex!].nowPlaying = true
+        if let snapshotNowPlayingIndex = snapshotNowPlayingIndex , snapshotNowPlayingIndex + 1 < snapshotTracks.count - 1{
+            if snapshotTracks == tracks{
+                tracks[snapshotNowPlayingIndex].nowPlaying = false
+                tracks[snapshotNowPlayingIndex + 1].nowPlaying = true
+            } else {
+                let track = snapshotTracks[snapshotNowPlayingIndex + 1]
+                for index in 0..<tracks.count{
+                    if tracks[index] == track{
+                        tracks[index].nowPlaying = true
+                    } else {
+                        tracks[index].nowPlaying = false
+                    }
+                }
+            }
+            nowPlaying = snapshotTracks[snapshotNowPlayingIndex + 1]
+            self.nowPlayingIndex = snapshotNowPlayingIndex + 1
+            self.snapshotNowPlayingIndex = snapshotNowPlayingIndex + 1
         }
     }
     @IBAction func clickPrev(_ sender: Any) {
+        if let snapshotNowPlayingIndex = snapshotNowPlayingIndex , snapshotNowPlayingIndex - 1 >= 0{
+            if snapshotTracks == tracks{
+                tracks[snapshotNowPlayingIndex].nowPlaying = false
+                tracks[snapshotNowPlayingIndex - 1].nowPlaying = true
+            } else {
+                let track = snapshotTracks[snapshotNowPlayingIndex - 1]
+                for index in 0..<tracks.count{
+                    if tracks[index] == track{
+                        tracks[index].nowPlaying = true
+                    } else {
+                        tracks[index].nowPlaying = false
+                    }
+                }
+            }
+            nowPlaying = snapshotTracks[snapshotNowPlayingIndex - 1]
+            self.nowPlayingIndex = snapshotNowPlayingIndex - 1
+            self.snapshotNowPlayingIndex = snapshotNowPlayingIndex - 1
+        }
     }
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "currentItem.loadedTimeRanges"{
@@ -173,6 +205,8 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource{
         tracks[indexPath.row].nowPlaying = true
         nowPlaying = tracks[indexPath.row]
         nowPlayingIndex = indexPath.row
+        snapshotTracks = tracks
+        snapshotNowPlayingIndex = nowPlayingIndex
         seeker.value = 0
         tableView.reloadData()
     }
