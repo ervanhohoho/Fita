@@ -15,14 +15,15 @@ class HomeVC: UIViewController{
     var subscriptions: Set<AnyCancellable> = []
     let searchController = UISearchController()
     var musicAPI: MusicAPI = MusicAPIImpl.instance
-   
+    
+    @Published var searchText: String = String()
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var seeker: UISlider!
     @IBOutlet weak var nowPlayingImgView: UIImageView!
     var player: AVPlayer? = nil
     @IBOutlet weak var playButtonImg: UIImageView!
-    var isPlaying = false{
+    var isPlaying = false {
         didSet{
             if isPlaying{
                 playerView.isHidden = false
@@ -38,7 +39,6 @@ class HomeVC: UIViewController{
             }
         }
     }
-    @Published var searchText: String = String()
     var tracks: [TrackModel] = []{
         didSet{
             DispatchQueue.main.async{self.tableView.reloadData()}

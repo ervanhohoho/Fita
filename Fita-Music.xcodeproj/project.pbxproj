@@ -109,6 +109,7 @@
 		E405AC94271300D10084AF7A /* Fita-Music */ = {
 			isa = PBXGroup;
 			children = (
+				E4564FDD2713397B008E3929 /* Networking */,
 				E405ACCD27130D900084AF7A /* Model */,
 				E405ACC62713078E0084AF7A /* Controller */,
 				E405ACC5271307710084AF7A /* View */,
@@ -117,7 +118,6 @@
 				E405AC9E271300D50084AF7A /* Assets.xcassets */,
 				E405ACA0271300D50084AF7A /* LaunchScreen.storyboard */,
 				E405ACA3271300D50084AF7A /* Info.plist */,
-				E405ACCB27130AD40084AF7A /* MusicAPI.swift */,
 			);
 			path = "Fita-Music";
 			sourceTree = "<group>";
@@ -163,6 +163,14 @@
 				E405ACCE27130DA10084AF7A /* QueryResultModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E4564FDD2713397B008E3929 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E405ACCB27130AD40084AF7A /* MusicAPI.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
