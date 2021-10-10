@@ -169,6 +169,7 @@
                     </view>
                     <connections>
                         <outlet property="playerView" destination="wnl-W7-P3P" id="ocn-WI-zDB"/>
+                        <outlet property="tableView" destination="eds-9d-40L" id="sAD-gv-ATo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
