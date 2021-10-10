@@ -10,6 +10,7 @@ protocol MusicAPI{
     func searchByQuery(query: String, completion: @escaping (Result<QueryResultModel, Error>) -> Void)
 }
 class MusicAPIImpl: MusicAPI{
+    static var instance = MusicAPIImpl()
     let url = "https://itunes.apple.com/search?term="
     func searchByQuery(query: String, completion: @escaping (Result<QueryResultModel, Error>) -> Void) {
         let query = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query

@@ -12,10 +12,10 @@ struct QueryResultModel: Codable{
     var results: [TrackModel]
 }
 struct TrackModel: Codable{
-    var trackId: String
+    var trackId: Double
     var trackName: String
     var artistName: String
     var artworkUrl60: String
-    var isStreamable: Bool
+    var isStreamable: Bool?
     var previewUrl: String
 }
