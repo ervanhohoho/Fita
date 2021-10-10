@@ -85,7 +85,7 @@ class HomeVC: UIViewController{
             player.seek(to: CMTime(value: Int64(seekDuration), timescale: 1))
         }
     }
-    func apiCall(){
+    func apiCall(completion: @escaping ()->Void = {}){
         musicAPI.searchByQuery(query: searchText) { res in
             switch res{
             case let .success(response):
@@ -101,9 +101,11 @@ class HomeVC: UIViewController{
                     }
                 }
                 self.tracks = tracks
+                completion()
             case let .failure(error):
                 debugPrint(error)
                 self.tracks = []
+                completion()
             }
         }
     }
@@ -172,8 +174,6 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource{
         tracks[indexPath.row].nowPlaying = true
         nowPlaying = tracks[indexPath.row]
         nowPlayingIndex = indexPath.row
-        snapshotTracks = tracks
-        snapshotNowPlayingIndex = nowPlayingIndex
         seeker.value = 0
         tableView.reloadData()
     }
